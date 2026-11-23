@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ОШИБКА 1: слишком длинный и дублирующийся title -->
+  <title>Контакты цветочной мастерской «Флёр» – адрес, телефон, часы работы, как добраться, схема проезда, доставка цветов и оформление заказов</title>
+
+  <!-- ОШИБКА 2: отсутствует meta name="description" -->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">Флёр</a>
+    <nav class="nav">
+      <a href="index.html" class="nav__link">Главная</a>
+      <a href="about.html" class="nav__link">О нас</a>
+      <a href="contacts.html" class="nav__link nav__link--active">Контакты</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="contacts">
+      <!-- h1 здесь один — это не ошибка, но title и description всё равно неправильные -->
+      <h1 class="content-title">Контакты</h1>
+
+      <address class="contacts__block">
+        <p><strong>Адрес:</strong> г. Москва, ул. Цветочная, д. 12</p>
+        <p><strong>Телефон:</strong> <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+        <p><strong>Email:</strong> <a href="mailto:hello@fleur-flowers.ru">hello@fleur-flowers.ru</a></p>
+        <p><strong>Часы работы:</strong> ежедневно с 9:00 до 21:00</p>
+      </address>
+
+      <img src="img/shop-front.jpg" alt="Витрина цветочной мастерской «Флёр»" class="contacts__img" width="600" height="400">
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Цветочная мастерская «Флёр». Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

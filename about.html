@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ОШИБКА 1: слишком длинный и нерелевантный title (122 символа) -->
+  <title>Контакты цветочной мастерской «Флёр» – адрес, телефон, часы работы, как добраться, схема проезда, доставка цветов и оформление заказов</title>
+
+  <!-- ОШИБКА 2: отсутствует meta name="description" -->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">Флёр</a>
+    <nav class="nav">
+      <a href="index.html" class="nav__link">Главная</a>
+      <a href="about.html" class="nav__link nav__link--active">О нас</a>
+      <a href="contacts.html" class="nav__link">Контакты</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="about">
+      <!-- ОШИБКА 3: первый h1 -->
+      <h1 class="content-title">О нас</h1>
+
+      <p class="about__text">
+        Мастерская «Флёр» открылась в 2018 году. Мы создаём букеты, которые
+        подчёркивают важные моменты и говорят за вас.
+      </p>
+
+      <img src="img/florist-work.jpg" alt="" class="about__img" width="600" height="400">
+    </section>
+
+    <section class="history">
+      <!-- ОШИБКА 4: второй h1 на той же странице -->
+      <h1>Наша история</h1>
+      <p class="history__text">
+        Всё началось с маленькой студии на 20 квадратных метров и любви к цветам.
+        Сегодня «Флёр» — это команда флористов, собственный склад и доставка
+        по всему городу.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Цветочная мастерская «Флёр». Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
